@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*头部*/
+	.header{
+		height: 100px;
+		width: 100%;
+		background-color: #0B8B8E;
+	}
+	.header .gwidth{
+		position: relative;
+	}
+	.header h1 img{
+		margin-left: 3px;
+		margin-top: 21px;
+	}
+	.sarch_box{
+		position: absolute;
+		top: 10px;right: 4px;
+	}
+	.sarch_box form .text{
+		width: 156px;
+		height: 26px;
+		border-left:1px solid #AAAAAA;
+		border-bottom: 1px solid #AAAAAA;
+		border-top: 1px solid #AAAAAA;;
+		padding-left: 2px;
+		outline: none;
+		float: left;
+	}
+	.sarch_box form .sub{
+		width: 33px;
+		height: 30px;
+		float: left;
+		outline: none;
+	}
+	.banner{
+		background:url(../images/banner.png) repeat-x center center;
+		width: 100%;height: 431px;
+	}
+	.nav{
+		position: absolute;
+		top: 56px;left: 377px;
+	}
+	.nav ul li{
+		width:88px;
+		height: 44px;
+		border-radius: 4px 4px 0 0;
+		line-height: 44px;
+		text-align: center;
+		float: left;
+	}
+	.nav ul .nav_li{
+		width: 88px;
+		height: 44px;
+		background-color: #FFFFFF;
+	}
+	.nav ul li a{
+		font-family: "微软雅黑";
+		font-size: 14px;
+		color: #FFFFFF;
+	}
+	.nav ul li:hover{
+		width: 88px;
+		height: 44px;
+		background-color: #FFFFFF;
+	}
+	.nav ul .nav_li a,.nav ul li:hover a{
+		font-family: "微软雅黑";
+		font-size: 14px;
+		color: #29999C;
+	}
+/*content*/
+	.content .con_news{
+		width: 1120px;
+		margin-left: auto;
+		margin-right: auto;
+		border-bottom: 1px solid #BBBBBB;
+		padding-bottom: 12px;
+		padding-top: 21px;
+		float: left;
+		margin-bottom:12px;
+	}
+	.content .con_news h4{
+		font-family: "微软雅黑";
+		font-size: 14px;
+		float: left;
+		margin-left: 1px;
+	}
+	.content .con_news a{
+		font-family: "微软雅黑";
+		font-size: 12px;
+		color:#656565;
+		float: left;
+		margin-top: 2px;
+		margin-left: 21px;
+	}
+	.content-2{ height:857px;}
+	
+	.left{ width:201px;
+	       float:left;}
+	
+	.k1{ width:201px;
+	     height:311px;}
+	.k1 h5{ width:186px;
+	        height:40px;
+			line-height:40px;
+			font-size:14px;
+			font-weight:bold;
+			background:#0D9590;
+			color:#fff;
+			padding-left:15px;}
+	.k1 ul{ border-left:1px solid #CCC;
+	 		border-right:1px solid #CCC;
+	  		border-bottom:1px solid #CCC;
+			width:199px;
+			height:271px;}
+			
+	.k1 li{ width:165px;
+	        height:28px;
+			border-bottom:1px dashed #999;
+			font-size:12px;
+			line-height:28px;
+			margin-left:8px;
+			padding-left:13px;}
+	.k1 li a { color:#000;}
+	
+	.k2{ width:199px;
+	     height:355px;
+		 margin-top:12px;
+		 border:1px solid #ccc;}
+	.k2 h5{ width:184px;
+	        height:40px;
+			line-height:40px;
+			font-size:14px;
+			font-weight:bold;
+			background:#0D9590;
+			color:#fff;
+			padding-left:15px;
+			margin-bottom:20px;}
+	.k2 p{ font-size:12px;
+	       line-height:22px;
+		   margin-left:7px;}
+	.k2 img{ margin:6px 1px 1px 1px;}
+	
+	.right{ float:right;
+	        width:862px;}
+			
+	.right .top{ height:43px;
+	             width:813px;
+				 border-bottom:1px solid #CCC;
+				 background:url(../images/nnn.png) no-repeat left center;
+				 padding-left:49px;
+				 margin-bottom:32px;}
+	.p1{ color:#999;
+	     font-size:9px;
+		 line-height:14px;
+		 padding-top:10px;}
+	.p2{ width:100%;
+	     line-height:18px;}
+		 
+	.p2 span{ font-size:14px;
+	          font-weight:bold;
+			  float:left;}
+	.p2 i{ font-style:normal;
+	       float:right;
+	       font-size:11px;}
+	.bottom{ width:100%;}
+	.bottom ul{ width:100%;}
+	.bottom ul li{ width:100%;
+	               height:86px;
+				   margin-bottom:24px;}
+	.bottom ul li img{ float:left;}
+	.nr{ float:left;
+	     width:720px;
+		 margin-left:13px;}
+	.nr h6{ font-size:12px;
+	        font-weight:bold;
+			line-height:20px;}
+	.xp1{ font-size:11px;
+	      color:#999;
+		  line-height:22px;}
+	.xp2{ font-size:11px;
+	      line-height:22px;}
+	
+	
+			   
+	.footer{
+		width: 100%;
+		height: 69px;
+		padding-top: 25px;
+		background-color: #353535;
+		margin-top: 10px;
+	}
+	.footer p{
+		font-family: "微软雅黑";
+		font-size: 12px;
+		color: #999999;
+		text-align: center;
+	}
+	.footer .f_p{
+		margin-top: 21px;
+	}
+	.footer p a{
+		font-family: "微软雅黑";
+		font-size: 12px;
+		color: #999999;
+	}
